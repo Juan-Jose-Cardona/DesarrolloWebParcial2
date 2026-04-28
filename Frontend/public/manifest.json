@@ -1,0 +1,19 @@
+{
+    "name": "Modelo 3d",
+    "short_name": "3d",
+    "description": "Visualizador 3d",
+    "star_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "f3f3f3f3",
+    "orientacion": "portrait-primary",
+    "icon": [
+
+        {"src": "/icon/icon128.png", "size": "128x128", "type": "image/png"},
+
+        {"src": "/icon/icon128.png", "size": "512x512", "type": "image/png"}
+
+        
+
+    ]
+}

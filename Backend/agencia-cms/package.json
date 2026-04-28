@@ -1,0 +1,40 @@
+{
+  "name": "nasa-space-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Strapi backend proxy for NASA APOD and NeoWs APIs",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.40.0",
+    "@strapi/plugin-users-permissions": "5.40.0",
+    "@strapi/strapi": "5.40.0",
+    "better-sqlite3": "12.6.2",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "202b4e75-92b1-47d5-8f6e-4ffe0cb113b6",
+    "installId": "f9e5f4768fdf6b659455a842e4f84cd765489c8efd32fa2a6f33444852da87ae"
+  }
+}
